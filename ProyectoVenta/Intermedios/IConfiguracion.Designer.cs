@@ -39,18 +39,18 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.White;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Teal;
+            this.label7.BackColor = System.Drawing.Color.Gainsboro;
+            this.label7.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
+            this.label7.ForeColor = System.Drawing.Color.Black;
             this.label7.Location = new System.Drawing.Point(18, 18);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(119, 15);
+            this.label7.Size = new System.Drawing.Size(104, 15);
             this.label7.TabIndex = 126;
             this.label7.Text = "CONFIGURACION";
             // 
             // btnotros
             // 
-            this.btnotros.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btnotros.BackColor = System.Drawing.Color.Azure;
             this.btnotros.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnotros.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
             this.btnotros.FlatAppearance.BorderSize = 2;
@@ -72,7 +72,7 @@
             // 
             // btnpermisos
             // 
-            this.btnpermisos.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btnpermisos.BackColor = System.Drawing.Color.Azure;
             this.btnpermisos.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnpermisos.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
             this.btnpermisos.FlatAppearance.BorderSize = 2;
@@ -94,7 +94,7 @@
             // 
             // btncerrar
             // 
-            this.btncerrar.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btncerrar.BackColor = System.Drawing.Color.Azure;
             this.btncerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btncerrar.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
             this.btncerrar.FlatAppearance.BorderSize = 2;
@@ -116,7 +116,7 @@
             // 
             // btnusuarios
             // 
-            this.btnusuarios.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btnusuarios.BackColor = System.Drawing.Color.Azure;
             this.btnusuarios.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnusuarios.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
             this.btnusuarios.FlatAppearance.BorderSize = 2;
@@ -138,17 +138,19 @@
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.BackColor = System.Drawing.Color.Gainsboro;
+            this.label1.ForeColor = System.Drawing.SystemColors.Control;
             this.label1.Location = new System.Drawing.Point(4, 4);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(448, 154);
             this.label1.TabIndex = 124;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // IConfiguracion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Gold;
+            this.BackColor = System.Drawing.Color.Azure;
             this.ClientSize = new System.Drawing.Size(456, 162);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.btnotros);

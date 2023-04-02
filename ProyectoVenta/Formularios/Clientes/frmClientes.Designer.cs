@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmClientes));
             this.btnsalir = new FontAwesome.Sharp.IconButton();
             this.btneliminar = new FontAwesome.Sharp.IconButton();
@@ -55,18 +55,19 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.lblresultado = new System.Windows.Forms.Label();
+            this.btnreniec = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.dgvdata)).BeginInit();
             this.SuspendLayout();
             // 
             // btnsalir
             // 
-            this.btnsalir.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnsalir.BackColor = System.Drawing.Color.Moccasin;
             this.btnsalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnsalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnsalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsalir.ForeColor = System.Drawing.Color.White;
+            this.btnsalir.ForeColor = System.Drawing.Color.Black;
             this.btnsalir.IconChar = FontAwesome.Sharp.IconChar.WindowClose;
-            this.btnsalir.IconColor = System.Drawing.Color.White;
+            this.btnsalir.IconColor = System.Drawing.Color.Black;
             this.btnsalir.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnsalir.IconSize = 24;
             this.btnsalir.Location = new System.Drawing.Point(832, 8);
@@ -80,6 +81,7 @@
             // 
             // btneliminar
             // 
+            this.btneliminar.BackColor = System.Drawing.Color.Silver;
             this.btneliminar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btneliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btneliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -96,11 +98,12 @@
             this.btneliminar.Text = "Eliminar";
             this.btneliminar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btneliminar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btneliminar.UseVisualStyleBackColor = true;
+            this.btneliminar.UseVisualStyleBackColor = false;
             this.btneliminar.Click += new System.EventHandler(this.btneliminar_Click);
             // 
             // btnlimpiar
             // 
+            this.btnlimpiar.BackColor = System.Drawing.Color.Silver;
             this.btnlimpiar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnlimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnlimpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -116,11 +119,12 @@
             this.btnlimpiar.Text = "Limpiar";
             this.btnlimpiar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnlimpiar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnlimpiar.UseVisualStyleBackColor = true;
+            this.btnlimpiar.UseVisualStyleBackColor = false;
             this.btnlimpiar.Click += new System.EventHandler(this.btnlimpiar_Click);
             // 
             // btnguardar
             // 
+            this.btnguardar.BackColor = System.Drawing.Color.Silver;
             this.btnguardar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnguardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnguardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -136,13 +140,15 @@
             this.btnguardar.Text = "Guardar";
             this.btnguardar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnguardar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnguardar.UseVisualStyleBackColor = true;
+            this.btnguardar.UseVisualStyleBackColor = false;
             this.btnguardar.Click += new System.EventHandler(this.btnguardar_Click);
             // 
             // btnborrar
             // 
+            this.btnborrar.BackColor = System.Drawing.Color.LightGray;
             this.btnborrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnborrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnborrar.ForeColor = System.Drawing.Color.DarkGray;
             this.btnborrar.IconChar = FontAwesome.Sharp.IconChar.Eraser;
             this.btnborrar.IconColor = System.Drawing.Color.Black;
             this.btnborrar.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -154,13 +160,15 @@
             this.btnborrar.TabIndex = 149;
             this.btnborrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnborrar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnborrar.UseVisualStyleBackColor = true;
+            this.btnborrar.UseVisualStyleBackColor = false;
             this.btnborrar.Click += new System.EventHandler(this.btnborrar_Click);
             // 
             // btnbuscar
             // 
+            this.btnbuscar.BackColor = System.Drawing.Color.LightGray;
             this.btnbuscar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnbuscar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnbuscar.ForeColor = System.Drawing.Color.LightGray;
             this.btnbuscar.IconChar = FontAwesome.Sharp.IconChar.Search;
             this.btnbuscar.IconColor = System.Drawing.Color.Black;
             this.btnbuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -172,11 +180,12 @@
             this.btnbuscar.TabIndex = 148;
             this.btnbuscar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnbuscar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnbuscar.UseVisualStyleBackColor = true;
+            this.btnbuscar.UseVisualStyleBackColor = false;
             this.btnbuscar.Click += new System.EventHandler(this.btnbuscar_Click);
             // 
             // cbobuscar
             // 
+            this.cbobuscar.BackColor = System.Drawing.Color.WhiteSmoke;
             this.cbobuscar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbobuscar.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbobuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -188,6 +197,7 @@
             // 
             // txtbuscar
             // 
+            this.txtbuscar.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtbuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtbuscar.Location = new System.Drawing.Point(667, 84);
             this.txtbuscar.Name = "txtbuscar";
@@ -197,7 +207,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.White;
+            this.label12.BackColor = System.Drawing.Color.Gainsboro;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(441, 87);
             this.label12.Name = "label12";
@@ -208,7 +218,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.White;
+            this.label7.BackColor = System.Drawing.Color.Gainsboro;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Teal;
             this.label7.Location = new System.Drawing.Point(282, 59);
@@ -220,7 +230,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.White;
+            this.label6.BackColor = System.Drawing.Color.Gainsboro;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.Teal;
             this.label6.Location = new System.Drawing.Point(19, 59);
@@ -231,7 +241,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.White;
+            this.groupBox1.BackColor = System.Drawing.Color.LightGray;
             this.groupBox1.Location = new System.Drawing.Point(253, 47);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(10, 289);
@@ -241,32 +251,32 @@
             // dgvdata
             // 
             this.dgvdata.AllowUserToAddRows = false;
-            this.dgvdata.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.Padding = new System.Windows.Forms.Padding(2);
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvdata.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvdata.BackgroundColor = System.Drawing.Color.Gainsboro;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(2);
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvdata.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvdata.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvdata.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Id,
             this.btnseleccionar,
             this.NumeroDocumento,
             this.NombreCompleto});
-            this.dgvdata.Location = new System.Drawing.Point(285, 113);
+            this.dgvdata.Location = new System.Drawing.Point(350, 113);
             this.dgvdata.MultiSelect = false;
             this.dgvdata.Name = "dgvdata";
             this.dgvdata.ReadOnly = true;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Transparent;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Transparent;
-            this.dgvdata.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Transparent;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Transparent;
+            this.dgvdata.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvdata.RowTemplate.Height = 24;
             this.dgvdata.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvdata.Size = new System.Drawing.Size(601, 223);
+            this.dgvdata.Size = new System.Drawing.Size(479, 223);
             this.dgvdata.TabIndex = 141;
             this.dgvdata.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvdata_CellContentClick);
             this.dgvdata.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.dgvdata_CellPainting);
@@ -308,6 +318,7 @@
             // 
             // txtnombre
             // 
+            this.txtnombre.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtnombre.Location = new System.Drawing.Point(21, 157);
             this.txtnombre.Name = "txtnombre";
             this.txtnombre.Size = new System.Drawing.Size(216, 20);
@@ -316,7 +327,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.White;
+            this.label3.BackColor = System.Drawing.Color.Gainsboro;
             this.label3.Location = new System.Drawing.Point(18, 141);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(91, 13);
@@ -325,15 +336,16 @@
             // 
             // txtnumero
             // 
+            this.txtnumero.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtnumero.Location = new System.Drawing.Point(21, 113);
             this.txtnumero.Name = "txtnumero";
-            this.txtnumero.Size = new System.Drawing.Size(216, 20);
+            this.txtnumero.Size = new System.Drawing.Size(173, 20);
             this.txtnumero.TabIndex = 134;
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.White;
+            this.label9.BackColor = System.Drawing.Color.Gainsboro;
             this.label9.Location = new System.Drawing.Point(18, 97);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(105, 13);
@@ -342,10 +354,10 @@
             // 
             // label2
             // 
-            this.label2.BackColor = System.Drawing.Color.Teal;
+            this.label2.BackColor = System.Drawing.Color.Moccasin;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(3, 3);
             this.label2.Name = "label2";
             this.label2.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
@@ -356,7 +368,7 @@
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.BackColor = System.Drawing.Color.Gainsboro;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(3, 43);
@@ -367,7 +379,7 @@
             // lblresultado
             // 
             this.lblresultado.AutoSize = true;
-            this.lblresultado.BackColor = System.Drawing.Color.White;
+            this.lblresultado.BackColor = System.Drawing.Color.Gainsboro;
             this.lblresultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblresultado.ForeColor = System.Drawing.Color.Green;
             this.lblresultado.Location = new System.Drawing.Point(19, 182);
@@ -376,12 +388,31 @@
             this.lblresultado.TabIndex = 155;
             this.lblresultado.Text = "lblresultado";
             // 
+            // btnreniec
+            // 
+            this.btnreniec.BackColor = System.Drawing.Color.LightGray;
+            this.btnreniec.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnreniec.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnreniec.IconChar = FontAwesome.Sharp.IconChar.Search;
+            this.btnreniec.IconColor = System.Drawing.Color.Black;
+            this.btnreniec.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnreniec.IconSize = 18;
+            this.btnreniec.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.btnreniec.Location = new System.Drawing.Point(200, 112);
+            this.btnreniec.Name = "btnreniec";
+            this.btnreniec.Size = new System.Drawing.Size(37, 21);
+            this.btnreniec.TabIndex = 176;
+            this.btnreniec.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnreniec.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnreniec.UseVisualStyleBackColor = false;
+            // 
             // frmClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(908, 357);
             this.ControlBox = false;
+            this.Controls.Add(this.btnreniec);
             this.Controls.Add(this.lblresultado);
             this.Controls.Add(this.btnsalir);
             this.Controls.Add(this.btneliminar);
@@ -442,5 +473,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn NumeroDocumento;
         private System.Windows.Forms.DataGridViewTextBoxColumn NombreCompleto;
         private System.Windows.Forms.Label lblresultado;
+        private FontAwesome.Sharp.IconButton btnreniec;
     }
 }

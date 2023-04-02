@@ -50,5 +50,10 @@ namespace ProyectoVenta.Intermedios
             this.DialogResult = DialogResult.OK;
             this.Close();
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

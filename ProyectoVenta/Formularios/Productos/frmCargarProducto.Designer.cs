@@ -55,10 +55,10 @@
             // 
             // label2
             // 
-            this.label2.BackColor = System.Drawing.Color.Teal;
+            this.label2.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(6, 6);
             this.label2.Name = "label2";
             this.label2.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
@@ -69,7 +69,7 @@
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.BackColor = System.Drawing.Color.Gainsboro;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(6, 46);
@@ -79,6 +79,7 @@
             // 
             // txtarchivo
             // 
+            this.txtarchivo.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtarchivo.Location = new System.Drawing.Point(136, 59);
             this.txtarchivo.Name = "txtarchivo";
             this.txtarchivo.ReadOnly = true;
@@ -88,7 +89,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.White;
+            this.label9.BackColor = System.Drawing.Color.Gainsboro;
             this.label9.Location = new System.Drawing.Point(22, 62);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(108, 13);
@@ -97,6 +98,7 @@
             // 
             // btncargar
             // 
+            this.btncargar.BackColor = System.Drawing.Color.LightGray;
             this.btncargar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btncargar.IconChar = FontAwesome.Sharp.IconChar.Upload;
             this.btncargar.IconColor = System.Drawing.Color.Black;
@@ -110,24 +112,24 @@
             this.btncargar.Text = "Subir";
             this.btncargar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btncargar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btncargar.UseVisualStyleBackColor = true;
+            this.btncargar.UseVisualStyleBackColor = false;
             this.btncargar.Click += new System.EventHandler(this.btncargar_Click);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.White;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Teal;
+            this.label7.BackColor = System.Drawing.Color.Gainsboro;
+            this.label7.Font = new System.Drawing.Font("Microsoft YaHei", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))));
+            this.label7.ForeColor = System.Drawing.Color.CadetBlue;
             this.label7.Location = new System.Drawing.Point(22, 131);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(98, 15);
+            this.label7.Size = new System.Drawing.Size(90, 17);
             this.label7.TabIndex = 112;
             this.label7.Text = "RESULTADOS";
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.White;
+            this.groupBox1.BackColor = System.Drawing.Color.LightGray;
             this.groupBox1.Location = new System.Drawing.Point(25, 108);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(727, 10);
@@ -137,7 +139,7 @@
             // dgvdata
             // 
             this.dgvdata.AllowUserToAddRows = false;
-            this.dgvdata.BackgroundColor = System.Drawing.Color.White;
+            this.dgvdata.BackgroundColor = System.Drawing.Color.Gainsboro;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -204,13 +206,13 @@
             // 
             // btnsalir
             // 
-            this.btnsalir.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnsalir.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.btnsalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnsalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnsalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsalir.ForeColor = System.Drawing.Color.White;
+            this.btnsalir.Font = new System.Drawing.Font("Microsoft Tai Le", 9.75F, System.Drawing.FontStyle.Bold);
+            this.btnsalir.ForeColor = System.Drawing.Color.Black;
             this.btnsalir.IconChar = FontAwesome.Sharp.IconChar.WindowClose;
-            this.btnsalir.IconColor = System.Drawing.Color.White;
+            this.btnsalir.IconColor = System.Drawing.Color.Black;
             this.btnsalir.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnsalir.IconSize = 24;
             this.btnsalir.Location = new System.Drawing.Point(699, 11);
@@ -224,6 +226,7 @@
             // 
             // btndescargar
             // 
+            this.btndescargar.BackColor = System.Drawing.Color.LightGray;
             this.btndescargar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btndescargar.IconChar = FontAwesome.Sharp.IconChar.FileExcel;
             this.btndescargar.IconColor = System.Drawing.Color.ForestGreen;
@@ -237,14 +240,14 @@
             this.btndescargar.Text = "Descargar Plantilla";
             this.btndescargar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btndescargar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btndescargar.UseVisualStyleBackColor = true;
+            this.btndescargar.UseVisualStyleBackColor = false;
             this.btndescargar.Click += new System.EventHandler(this.btndescargar_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.White;
-            this.label3.ForeColor = System.Drawing.Color.Blue;
+            this.label3.BackColor = System.Drawing.Color.Gainsboro;
+            this.label3.ForeColor = System.Drawing.Color.RoyalBlue;
             this.label3.Location = new System.Drawing.Point(72, 88);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(58, 13);
@@ -254,8 +257,8 @@
             // lblresumen
             // 
             this.lblresumen.AutoSize = true;
-            this.lblresumen.BackColor = System.Drawing.Color.White;
-            this.lblresumen.ForeColor = System.Drawing.Color.Blue;
+            this.lblresumen.BackColor = System.Drawing.Color.Gainsboro;
+            this.lblresumen.ForeColor = System.Drawing.Color.RoyalBlue;
             this.lblresumen.Location = new System.Drawing.Point(136, 88);
             this.lblresumen.Name = "lblresumen";
             this.lblresumen.Size = new System.Drawing.Size(57, 13);
@@ -264,6 +267,7 @@
             // 
             // btnprocesar
             // 
+            this.btnprocesar.BackColor = System.Drawing.Color.LightGray;
             this.btnprocesar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnprocesar.IconChar = FontAwesome.Sharp.IconChar.Spinner;
             this.btnprocesar.IconColor = System.Drawing.Color.Black;
@@ -277,7 +281,7 @@
             this.btnprocesar.Text = "Procesar";
             this.btnprocesar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnprocesar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnprocesar.UseVisualStyleBackColor = true;
+            this.btnprocesar.UseVisualStyleBackColor = false;
             this.btnprocesar.Click += new System.EventHandler(this.btnprocesar_Click);
             // 
             // backgroundWorker1
@@ -289,6 +293,7 @@
             // 
             // progressBar1
             // 
+            this.progressBar1.BackColor = System.Drawing.Color.LightGray;
             this.progressBar1.Location = new System.Drawing.Point(650, 59);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(102, 21);

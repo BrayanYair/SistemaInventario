@@ -8,13 +8,17 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Newtonsoft.Json;
+using ProyectoVenta.APIS;
 
 namespace ProyectoVenta.Formularios.Proveedores
 {
     public partial class frmProveedores : Form
     {
+        apisPeru apisPeru = new apisPeru();
         private static int _id = 0;
         private static int _indice = 0;
 
@@ -233,5 +237,69 @@ namespace ProyectoVenta.Formularios.Proveedores
             }
             dgvdata.ClearSelection();
         }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+
+
+        }
+
+        private void btnreniec_Click(object sender, EventArgs e)
+        {
+            consultaReniec();
+        }
+
+        private void consultaReniec()
+        {
+            try
+            {
+                if (txtnumero.Text.Length == 11)
+                {
+                    dynamic respuesta = apisPeru.Get("https://dniruc.apisperu.com/api/v1/ruc/" + txtnumero.Text + "?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImRhbmllbHBlcmljaGU0NUBnbWFpbC5jb20ifQ.J1b1ZPU-JXHu2jQ7apjKVd4bbXq0qdd88fsAsPzI8c4");
+                    txtnombre.Text = respuesta.razonSocial.ToString();
+                    //txtDireccion.Text = respuesta.direccion.ToString();
+                }
+                else if (txtnumero.Text.Length == 8)
+                {
+                    dynamic respuesta = apisPeru.Get("https://dniruc.apisperu.com/api/v1/dni/" + txtnumero.Text + "?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImRhbmllbHBlcmljaGU0NUBnbWFpbC5jb20ifQ.J1b1ZPU-JXHu2jQ7apjKVd4bbXq0qdd88fsAsPzI8c4");
+                    txtnombre.Text = respuesta.nombres.ToString() + " " + respuesta.apellidoPaterno.ToString() + " " + respuesta.apellidoMaterno.ToString();
+                }
+
+                else
+                {
+                    MessageBox.Show("Ingrese un número de documento válido.", "Documento inválido", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+
+            }
+            catch (Exception)
+            {
+
+                MessageBox.Show("Ingrese un número de documento válido.", "Documento inválido", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        /*private async void iconButton1_Click_1(object sender, EventArgs e)
+        {
+           
+            var api = new ReniecApi();
+            var numeroDni = txtnumero.Text.Trim();
+
+            try
+            {
+                var datosJson = await api.ObtenerDatosPorDni(numeroDni);
+
+                // Deserializar la respuesta en un objeto
+                var datos = JsonConvert.DeserializeObject<DatosReniec>(datosJson);
+
+                // Mostrar los datos obtenidos en la interfaz gráfica
+                txtnombre.Text = $"{datos.Nombres} {datos.ApellidoPaterno} {datos.ApellidoMaterno}";
+            }
+            catch (Exception ex)
+            {
+                // Mostrar un mensaje de error si ocurrió una excepción al obtener los datos de la API
+                MessageBox.Show($"No se pudo obtener los datos de la persona con DNI {numeroDni}: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            } 
+        }*/
+
     }
 }
