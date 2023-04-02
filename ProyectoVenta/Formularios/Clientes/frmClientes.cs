@@ -232,5 +232,6 @@ namespace ProyectoVenta.Formularios.Clientes
             }
             dgvdata.ClearSelection();
         }
+
     }
 }

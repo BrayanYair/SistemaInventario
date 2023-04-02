@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmRegistrarEntrada));
             this.txtnomproveedor = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
@@ -77,6 +77,7 @@
             // 
             // txtnomproveedor
             // 
+            this.txtnomproveedor.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtnomproveedor.Location = new System.Drawing.Point(166, 122);
             this.txtnomproveedor.Name = "txtnomproveedor";
             this.txtnomproveedor.Size = new System.Drawing.Size(201, 20);
@@ -85,7 +86,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.White;
+            this.label10.BackColor = System.Drawing.Color.Gainsboro;
             this.label10.Location = new System.Drawing.Point(163, 103);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(99, 13);
@@ -94,7 +95,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.White;
+            this.groupBox2.BackColor = System.Drawing.Color.LightGray;
             this.groupBox2.Location = new System.Drawing.Point(26, 87);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(719, 10);
@@ -104,7 +105,7 @@
             // lbltotal
             // 
             this.lbltotal.AutoSize = true;
-            this.lbltotal.BackColor = System.Drawing.Color.White;
+            this.lbltotal.BackColor = System.Drawing.Color.Gainsboro;
             this.lbltotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbltotal.Location = new System.Drawing.Point(74, 515);
             this.lbltotal.Name = "lbltotal";
@@ -115,7 +116,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.White;
+            this.label8.BackColor = System.Drawing.Color.Gainsboro;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(25, 515);
             this.label8.Name = "label8";
@@ -125,6 +126,7 @@
             // 
             // txtpreciocompra
             // 
+            this.txtpreciocompra.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtpreciocompra.Location = new System.Drawing.Point(443, 181);
             this.txtpreciocompra.Name = "txtpreciocompra";
             this.txtpreciocompra.Size = new System.Drawing.Size(76, 20);
@@ -134,7 +136,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.White;
+            this.label7.BackColor = System.Drawing.Color.Gainsboro;
             this.label7.Location = new System.Drawing.Point(440, 164);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(79, 13);
@@ -144,16 +146,16 @@
             // dgvdata
             // 
             this.dgvdata.AllowUserToAddRows = false;
-            this.dgvdata.BackgroundColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.Padding = new System.Windows.Forms.Padding(2);
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvdata.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvdata.BackgroundColor = System.Drawing.Color.Gainsboro;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(2);
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvdata.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvdata.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvdata.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.btneliminar,
@@ -170,9 +172,9 @@
             this.dgvdata.MultiSelect = false;
             this.dgvdata.Name = "dgvdata";
             this.dgvdata.ReadOnly = true;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Transparent;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Transparent;
-            this.dgvdata.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Transparent;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Transparent;
+            this.dgvdata.RowsDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvdata.RowTemplate.Height = 24;
             this.dgvdata.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvdata.Size = new System.Drawing.Size(719, 280);
@@ -260,6 +262,7 @@
             // 
             // txtcantidad
             // 
+            this.txtcantidad.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtcantidad.Location = new System.Drawing.Point(623, 180);
             this.txtcantidad.Maximum = new decimal(new int[] {
             100000,
@@ -274,7 +277,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.White;
+            this.label6.BackColor = System.Drawing.Color.Gainsboro;
             this.label6.Location = new System.Drawing.Point(620, 164);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(52, 13);
@@ -283,6 +286,7 @@
             // 
             // txtdescripcionproducto
             // 
+            this.txtdescripcionproducto.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtdescripcionproducto.Location = new System.Drawing.Point(166, 180);
             this.txtdescripcionproducto.Name = "txtdescripcionproducto";
             this.txtdescripcionproducto.ReadOnly = true;
@@ -292,7 +296,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.White;
+            this.label4.BackColor = System.Drawing.Color.Gainsboro;
             this.label4.Location = new System.Drawing.Point(163, 164);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(112, 13);
@@ -301,7 +305,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.White;
+            this.groupBox1.BackColor = System.Drawing.Color.LightGray;
             this.groupBox1.Location = new System.Drawing.Point(26, 145);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(719, 10);
@@ -310,7 +314,7 @@
             // 
             // txtcodigoproducto
             // 
-            this.txtcodigoproducto.BackColor = System.Drawing.Color.White;
+            this.txtcodigoproducto.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtcodigoproducto.Location = new System.Drawing.Point(28, 180);
             this.txtcodigoproducto.Name = "txtcodigoproducto";
             this.txtcodigoproducto.Size = new System.Drawing.Size(126, 20);
@@ -320,7 +324,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.White;
+            this.label3.BackColor = System.Drawing.Color.Gainsboro;
             this.label3.Location = new System.Drawing.Point(25, 164);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(89, 13);
@@ -329,6 +333,7 @@
             // 
             // txtfecharegistro
             // 
+            this.txtfecharegistro.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtfecharegistro.Location = new System.Drawing.Point(350, 61);
             this.txtfecharegistro.Name = "txtfecharegistro";
             this.txtfecharegistro.ReadOnly = true;
@@ -338,7 +343,7 @@
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.BackColor = System.Drawing.Color.White;
+            this.label26.BackColor = System.Drawing.Color.Gainsboro;
             this.label26.Location = new System.Drawing.Point(25, 64);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(95, 13);
@@ -348,7 +353,7 @@
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.BackColor = System.Drawing.Color.White;
+            this.label27.BackColor = System.Drawing.Color.Gainsboro;
             this.label27.Location = new System.Drawing.Point(267, 64);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(77, 13);
@@ -357,6 +362,7 @@
             // 
             // txtnumerodocumento
             // 
+            this.txtnumerodocumento.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtnumerodocumento.Location = new System.Drawing.Point(122, 61);
             this.txtnumerodocumento.Name = "txtnumerodocumento";
             this.txtnumerodocumento.Size = new System.Drawing.Size(129, 20);
@@ -364,6 +370,7 @@
             // 
             // txtdocproveedor
             // 
+            this.txtdocproveedor.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtdocproveedor.Location = new System.Drawing.Point(26, 122);
             this.txtdocproveedor.Name = "txtdocproveedor";
             this.txtdocproveedor.Size = new System.Drawing.Size(128, 20);
@@ -372,7 +379,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.White;
+            this.label5.BackColor = System.Drawing.Color.Gainsboro;
             this.label5.Location = new System.Drawing.Point(26, 103);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(85, 13);
@@ -381,10 +388,10 @@
             // 
             // label2
             // 
-            this.label2.BackColor = System.Drawing.Color.Teal;
+            this.label2.BackColor = System.Drawing.Color.LightSteelBlue;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(6, 5);
             this.label2.Name = "label2";
             this.label2.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
@@ -395,7 +402,7 @@
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.BackColor = System.Drawing.Color.Gainsboro;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(6, 46);
@@ -405,6 +412,7 @@
             // 
             // txtprecioventa
             // 
+            this.txtprecioventa.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtprecioventa.Location = new System.Drawing.Point(533, 181);
             this.txtprecioventa.Name = "txtprecioventa";
             this.txtprecioventa.Size = new System.Drawing.Size(76, 20);
@@ -414,7 +422,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.White;
+            this.label11.BackColor = System.Drawing.Color.Gainsboro;
             this.label11.Location = new System.Drawing.Point(530, 164);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(71, 13);
@@ -423,13 +431,13 @@
             // 
             // btnsalir
             // 
-            this.btnsalir.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnsalir.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnsalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnsalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnsalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsalir.ForeColor = System.Drawing.Color.White;
+            this.btnsalir.ForeColor = System.Drawing.Color.Black;
             this.btnsalir.IconChar = FontAwesome.Sharp.IconChar.WindowClose;
-            this.btnsalir.IconColor = System.Drawing.Color.White;
+            this.btnsalir.IconColor = System.Drawing.Color.Black;
             this.btnsalir.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnsalir.IconSize = 24;
             this.btnsalir.Location = new System.Drawing.Point(691, 11);
@@ -443,7 +451,7 @@
             // 
             // btnguardarentrada
             // 
-            this.btnguardarentrada.BackColor = System.Drawing.SystemColors.Control;
+            this.btnguardarentrada.BackColor = System.Drawing.Color.LightGray;
             this.btnguardarentrada.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnguardarentrada.IconChar = FontAwesome.Sharp.IconChar.Edit;
             this.btnguardarentrada.IconColor = System.Drawing.Color.Black;
@@ -463,6 +471,7 @@
             // 
             // btnagregar
             // 
+            this.btnagregar.BackColor = System.Drawing.Color.LightGray;
             this.btnagregar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnagregar.IconChar = FontAwesome.Sharp.IconChar.Plus;
             this.btnagregar.IconColor = System.Drawing.Color.Black;
@@ -476,7 +485,7 @@
             this.btnagregar.TabIndex = 11;
             this.btnagregar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnagregar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnagregar.UseVisualStyleBackColor = true;
+            this.btnagregar.UseVisualStyleBackColor = false;
             this.btnagregar.Click += new System.EventHandler(this.btnagregar_Click);
             // 
             // btnbuscarproducto
@@ -498,6 +507,7 @@
             // 
             // btnbuscarproveedor
             // 
+            this.btnbuscarproveedor.BackColor = System.Drawing.Color.LightGray;
             this.btnbuscarproveedor.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnbuscarproveedor.IconChar = FontAwesome.Sharp.IconChar.Search;
             this.btnbuscarproveedor.IconColor = System.Drawing.Color.Black;
@@ -510,7 +520,7 @@
             this.btnbuscarproveedor.TabIndex = 4;
             this.btnbuscarproveedor.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnbuscarproveedor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnbuscarproveedor.UseVisualStyleBackColor = true;
+            this.btnbuscarproveedor.UseVisualStyleBackColor = false;
             this.btnbuscarproveedor.Click += new System.EventHandler(this.btnbuscarproveedor_Click);
             // 
             // frmRegistrarEntrada

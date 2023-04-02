@@ -197,6 +197,9 @@ namespace ProyectoVenta.Formularios.Salidas
             limpiar();
         }
 
-    
+        private void dgvdata_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

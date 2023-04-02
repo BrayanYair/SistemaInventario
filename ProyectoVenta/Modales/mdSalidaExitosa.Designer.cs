@@ -38,7 +38,7 @@
             // 
             // btnaceptar
             // 
-            this.btnaceptar.BackColor = System.Drawing.SystemColors.Control;
+            this.btnaceptar.BackColor = System.Drawing.Color.LightGray;
             this.btnaceptar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnaceptar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnaceptar.ForeColor = System.Drawing.Color.Black;
@@ -59,15 +59,16 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
             this.label1.Location = new System.Drawing.Point(64, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 15);
+            this.label1.Size = new System.Drawing.Size(106, 13);
             this.label1.TabIndex = 72;
             this.label1.Text = "Salida registrada!";
             // 
             // txtnumerodocumento
             // 
+            this.txtnumerodocumento.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtnumerodocumento.Location = new System.Drawing.Point(67, 52);
             this.txtnumerodocumento.Name = "txtnumerodocumento";
             this.txtnumerodocumento.ReadOnly = true;
@@ -85,12 +86,12 @@
             // 
             // iconPictureBox1
             // 
-            this.iconPictureBox1.BackColor = System.Drawing.Color.White;
+            this.iconPictureBox1.BackColor = System.Drawing.Color.Gainsboro;
             this.iconPictureBox1.ForeColor = System.Drawing.SystemColors.Highlight;
             this.iconPictureBox1.IconChar = FontAwesome.Sharp.IconChar.InfoCircle;
             this.iconPictureBox1.IconColor = System.Drawing.SystemColors.Highlight;
             this.iconPictureBox1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconPictureBox1.IconSize = 48;
+            this.iconPictureBox1.IconSize = 46;
             this.iconPictureBox1.Location = new System.Drawing.Point(12, 26);
             this.iconPictureBox1.Name = "iconPictureBox1";
             this.iconPictureBox1.Size = new System.Drawing.Size(46, 46);
@@ -101,7 +102,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(244, 115);
             this.ControlBox = false;
             this.Controls.Add(this.iconPictureBox1);

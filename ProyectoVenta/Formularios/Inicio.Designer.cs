@@ -42,14 +42,13 @@
             this.lblstatus1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.lblstatus2 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.btnInfo = new FontAwesome.Sharp.IconButton();
             this.btnsalir = new FontAwesome.Sharp.IconButton();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnproductos
             // 
-            this.btnproductos.BackColor = System.Drawing.SystemColors.Control;
+            this.btnproductos.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.btnproductos.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnproductos.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
             this.btnproductos.FlatAppearance.BorderSize = 2;
@@ -61,7 +60,7 @@
             this.btnproductos.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnproductos.IconSize = 100;
             this.btnproductos.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnproductos.Location = new System.Drawing.Point(522, 159);
+            this.btnproductos.Location = new System.Drawing.Point(147, 133);
             this.btnproductos.Name = "btnproductos";
             this.btnproductos.Size = new System.Drawing.Size(143, 134);
             this.btnproductos.TabIndex = 2;
@@ -72,21 +71,22 @@
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.Teal;
+            this.label1.BackColor = System.Drawing.Color.CadetBlue;
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Tai Le", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
             this.label1.Padding = new System.Windows.Forms.Padding(6, 0, 0, 0);
-            this.label1.Size = new System.Drawing.Size(800, 87);
+            this.label1.Size = new System.Drawing.Size(797, 75);
             this.label1.TabIndex = 3;
-            this.label1.Text = "CE INVENTARIO LIBRE";
+            this.label1.Text = "SISTEMA DE INVENTARIO";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // btnClientes
             // 
-            this.btnClientes.BackColor = System.Drawing.SystemColors.Control;
+            this.btnClientes.BackColor = System.Drawing.Color.Moccasin;
             this.btnClientes.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClientes.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
             this.btnClientes.FlatAppearance.BorderSize = 2;
@@ -98,7 +98,7 @@
             this.btnClientes.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnClientes.IconSize = 100;
             this.btnClientes.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnClientes.Location = new System.Drawing.Point(48, 343);
+            this.btnClientes.Location = new System.Drawing.Point(239, 290);
             this.btnClientes.Name = "btnClientes";
             this.btnClientes.Size = new System.Drawing.Size(143, 134);
             this.btnClientes.TabIndex = 4;
@@ -109,7 +109,7 @@
             // 
             // btnSalidas
             // 
-            this.btnSalidas.BackColor = System.Drawing.SystemColors.Control;
+            this.btnSalidas.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.btnSalidas.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSalidas.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
             this.btnSalidas.FlatAppearance.BorderSize = 2;
@@ -121,7 +121,7 @@
             this.btnSalidas.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnSalidas.IconSize = 100;
             this.btnSalidas.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnSalidas.Location = new System.Drawing.Point(142, 159);
+            this.btnSalidas.Location = new System.Drawing.Point(509, 133);
             this.btnSalidas.Name = "btnSalidas";
             this.btnSalidas.Size = new System.Drawing.Size(143, 134);
             this.btnSalidas.TabIndex = 5;
@@ -132,7 +132,7 @@
             // 
             // btnentradas
             // 
-            this.btnentradas.BackColor = System.Drawing.SystemColors.Control;
+            this.btnentradas.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnentradas.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnentradas.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
             this.btnentradas.FlatAppearance.BorderSize = 2;
@@ -144,7 +144,7 @@
             this.btnentradas.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnentradas.IconSize = 100;
             this.btnentradas.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnentradas.Location = new System.Drawing.Point(332, 159);
+            this.btnentradas.Location = new System.Drawing.Point(327, 133);
             this.btnentradas.Name = "btnentradas";
             this.btnentradas.Size = new System.Drawing.Size(143, 134);
             this.btnentradas.TabIndex = 6;
@@ -155,7 +155,7 @@
             // 
             // btnProveedores
             // 
-            this.btnProveedores.BackColor = System.Drawing.SystemColors.Control;
+            this.btnProveedores.BackColor = System.Drawing.Color.LightCyan;
             this.btnProveedores.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnProveedores.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
             this.btnProveedores.FlatAppearance.BorderSize = 2;
@@ -167,7 +167,7 @@
             this.btnProveedores.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnProveedores.IconSize = 100;
             this.btnProveedores.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnProveedores.Location = new System.Drawing.Point(235, 343);
+            this.btnProveedores.Location = new System.Drawing.Point(60, 290);
             this.btnProveedores.Name = "btnProveedores";
             this.btnProveedores.Size = new System.Drawing.Size(143, 134);
             this.btnProveedores.TabIndex = 7;
@@ -178,7 +178,7 @@
             // 
             // btnInventario
             // 
-            this.btnInventario.BackColor = System.Drawing.SystemColors.Control;
+            this.btnInventario.BackColor = System.Drawing.Color.LightPink;
             this.btnInventario.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnInventario.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
             this.btnInventario.FlatAppearance.BorderSize = 2;
@@ -190,7 +190,7 @@
             this.btnInventario.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnInventario.IconSize = 100;
             this.btnInventario.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnInventario.Location = new System.Drawing.Point(424, 343);
+            this.btnInventario.Location = new System.Drawing.Point(407, 290);
             this.btnInventario.Name = "btnInventario";
             this.btnInventario.Size = new System.Drawing.Size(143, 134);
             this.btnInventario.TabIndex = 8;
@@ -201,7 +201,7 @@
             // 
             // btnConfiguracion
             // 
-            this.btnConfiguracion.BackColor = System.Drawing.SystemColors.Control;
+            this.btnConfiguracion.BackColor = System.Drawing.Color.Azure;
             this.btnConfiguracion.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnConfiguracion.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
             this.btnConfiguracion.FlatAppearance.BorderSize = 2;
@@ -213,7 +213,7 @@
             this.btnConfiguracion.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnConfiguracion.IconSize = 100;
             this.btnConfiguracion.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnConfiguracion.Location = new System.Drawing.Point(612, 343);
+            this.btnConfiguracion.Location = new System.Drawing.Point(587, 290);
             this.btnConfiguracion.Name = "btnConfiguracion";
             this.btnConfiguracion.Size = new System.Drawing.Size(143, 134);
             this.btnConfiguracion.TabIndex = 9;
@@ -224,16 +224,17 @@
             // 
             // statusStrip1
             // 
+            this.statusStrip1.BackColor = System.Drawing.Color.Gainsboro;
             this.statusStrip1.Dock = System.Windows.Forms.DockStyle.Top;
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel2,
             this.lblstatus1,
             this.toolStripStatusLabel1,
             this.lblstatus2});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 87);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 75);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.statusStrip1.Size = new System.Drawing.Size(800, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(797, 22);
             this.statusStrip1.TabIndex = 10;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -272,29 +273,9 @@
             this.lblstatus2.Size = new System.Drawing.Size(118, 17);
             this.lblstatus2.Text = "toolStripStatusLabel1";
             // 
-            // btnInfo
-            // 
-            this.btnInfo.BackColor = System.Drawing.Color.Teal;
-            this.btnInfo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInfo.ForeColor = System.Drawing.Color.White;
-            this.btnInfo.IconChar = FontAwesome.Sharp.IconChar.InfoCircle;
-            this.btnInfo.IconColor = System.Drawing.Color.White;
-            this.btnInfo.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnInfo.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btnInfo.Location = new System.Drawing.Point(650, 11);
-            this.btnInfo.Name = "btnInfo";
-            this.btnInfo.Size = new System.Drawing.Size(62, 64);
-            this.btnInfo.TabIndex = 12;
-            this.btnInfo.Text = "Info";
-            this.btnInfo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnInfo.UseVisualStyleBackColor = false;
-            this.btnInfo.Click += new System.EventHandler(this.btnInfo_Click);
-            // 
             // btnsalir
             // 
-            this.btnsalir.BackColor = System.Drawing.Color.Teal;
+            this.btnsalir.BackColor = System.Drawing.Color.CadetBlue;
             this.btnsalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnsalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnsalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -302,9 +283,9 @@
             this.btnsalir.IconChar = FontAwesome.Sharp.IconChar.SignOutAlt;
             this.btnsalir.IconColor = System.Drawing.Color.White;
             this.btnsalir.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.btnsalir.Location = new System.Drawing.Point(728, 11);
+            this.btnsalir.Location = new System.Drawing.Point(723, 10);
             this.btnsalir.Name = "btnsalir";
-            this.btnsalir.Size = new System.Drawing.Size(62, 64);
+            this.btnsalir.Size = new System.Drawing.Size(62, 61);
             this.btnsalir.TabIndex = 11;
             this.btnsalir.Text = "Salir";
             this.btnsalir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -315,10 +296,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(800, 539);
+            this.BackColor = System.Drawing.Color.GhostWhite;
+            this.ClientSize = new System.Drawing.Size(797, 461);
             this.ControlBox = false;
-            this.Controls.Add(this.btnInfo);
             this.Controls.Add(this.btnsalir);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.btnConfiguracion);
@@ -332,7 +312,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(816, 578);
-            this.MinimumSize = new System.Drawing.Size(816, 578);
             this.Name = "Inicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = ".: Inicio :.";
@@ -359,7 +338,6 @@
         private System.Windows.Forms.ToolStripStatusLabel lblstatus2;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
-        private FontAwesome.Sharp.IconButton btnInfo;
         private FontAwesome.Sharp.IconButton btnsalir;
     }
 }

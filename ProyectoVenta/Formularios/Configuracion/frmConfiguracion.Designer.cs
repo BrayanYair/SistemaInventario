@@ -54,6 +54,7 @@
             // 
             // btnsubir
             // 
+            this.btnsubir.BackColor = System.Drawing.Color.LightGray;
             this.btnsubir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnsubir.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnsubir.IconChar = FontAwesome.Sharp.IconChar.Upload;
@@ -67,7 +68,7 @@
             this.btnsubir.Text = "Subir";
             this.btnsubir.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnsubir.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnsubir.UseVisualStyleBackColor = true;
+            this.btnsubir.UseVisualStyleBackColor = false;
             this.btnsubir.Click += new System.EventHandler(this.btnsubir_Click);
             // 
             // label7
@@ -81,6 +82,7 @@
             // 
             // picLogo
             // 
+            this.picLogo.BackColor = System.Drawing.Color.DarkGray;
             this.picLogo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.picLogo.Location = new System.Drawing.Point(15, 40);
             this.picLogo.Name = "picLogo";
@@ -91,6 +93,7 @@
             // 
             // txtruc
             // 
+            this.txtruc.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtruc.Location = new System.Drawing.Point(180, 87);
             this.txtruc.Name = "txtruc";
             this.txtruc.Size = new System.Drawing.Size(275, 20);
@@ -107,6 +110,7 @@
             // 
             // txtrazonsocial
             // 
+            this.txtrazonsocial.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtrazonsocial.Location = new System.Drawing.Point(180, 40);
             this.txtrazonsocial.Name = "txtrazonsocial";
             this.txtrazonsocial.Size = new System.Drawing.Size(275, 20);
@@ -123,6 +127,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.Color.Gainsboro;
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.txtdireccion);
             this.groupBox2.Controls.Add(this.btnguardarcambios);
@@ -151,6 +156,7 @@
             // 
             // txtdireccion
             // 
+            this.txtdireccion.BackColor = System.Drawing.Color.WhiteSmoke;
             this.txtdireccion.Location = new System.Drawing.Point(180, 131);
             this.txtdireccion.Name = "txtdireccion";
             this.txtdireccion.Size = new System.Drawing.Size(275, 20);
@@ -158,6 +164,7 @@
             // 
             // btnguardarcambios
             // 
+            this.btnguardarcambios.BackColor = System.Drawing.Color.LightGray;
             this.btnguardarcambios.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnguardarcambios.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnguardarcambios.IconChar = FontAwesome.Sharp.IconChar.Save;
@@ -172,11 +179,12 @@
             this.btnguardarcambios.Text = "Guardar Cambios";
             this.btnguardarcambios.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnguardarcambios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnguardarcambios.UseVisualStyleBackColor = true;
+            this.btnguardarcambios.UseVisualStyleBackColor = false;
             this.btnguardarcambios.Click += new System.EventHandler(this.btnguardarcambios_Click);
             // 
             // groupBox3
             // 
+            this.groupBox3.BackColor = System.Drawing.Color.Gainsboro;
             this.groupBox3.Controls.Add(this.btnguardartipocodigo);
             this.groupBox3.Controls.Add(this.cbotipobarra);
             this.groupBox3.Controls.Add(this.label12);
@@ -189,6 +197,7 @@
             // 
             // btnguardartipocodigo
             // 
+            this.btnguardartipocodigo.BackColor = System.Drawing.Color.LightGray;
             this.btnguardartipocodigo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnguardartipocodigo.IconChar = FontAwesome.Sharp.IconChar.Save;
             this.btnguardartipocodigo.IconColor = System.Drawing.Color.Black;
@@ -202,11 +211,12 @@
             this.btnguardartipocodigo.Text = "Guardar Cambios";
             this.btnguardartipocodigo.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnguardartipocodigo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnguardartipocodigo.UseVisualStyleBackColor = true;
+            this.btnguardartipocodigo.UseVisualStyleBackColor = false;
             this.btnguardartipocodigo.Click += new System.EventHandler(this.btnguardartipocodigo_Click);
             // 
             // cbotipobarra
             // 
+            this.cbotipobarra.BackColor = System.Drawing.Color.WhiteSmoke;
             this.cbotipobarra.Cursor = System.Windows.Forms.Cursors.Hand;
             this.cbotipobarra.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbotipobarra.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -219,7 +229,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.White;
+            this.label12.BackColor = System.Drawing.Color.Gainsboro;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(8, 22);
             this.label12.Name = "label12";
@@ -229,13 +239,13 @@
             // 
             // btnsalir
             // 
-            this.btnsalir.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.btnsalir.BackColor = System.Drawing.Color.Azure;
             this.btnsalir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnsalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnsalir.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsalir.ForeColor = System.Drawing.Color.White;
+            this.btnsalir.ForeColor = System.Drawing.Color.Black;
             this.btnsalir.IconChar = FontAwesome.Sharp.IconChar.WindowClose;
-            this.btnsalir.IconColor = System.Drawing.Color.White;
+            this.btnsalir.IconColor = System.Drawing.Color.Black;
             this.btnsalir.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnsalir.IconSize = 24;
             this.btnsalir.Location = new System.Drawing.Point(417, 6);
@@ -249,10 +259,10 @@
             // 
             // label3
             // 
-            this.label3.BackColor = System.Drawing.Color.Teal;
+            this.label3.BackColor = System.Drawing.Color.Azure;
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(1, 1);
             this.label3.Name = "label3";
             this.label3.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
@@ -263,7 +273,7 @@
             // 
             // label4
             // 
-            this.label4.BackColor = System.Drawing.Color.White;
+            this.label4.BackColor = System.Drawing.Color.Gainsboro;
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(1, 41);

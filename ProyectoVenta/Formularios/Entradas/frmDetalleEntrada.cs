@@ -188,5 +188,10 @@ namespace ProyectoVenta.Formularios.Entradas
         {
             limpiar();
         }
+
+        private void txtnumerodocumento_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -38,7 +38,7 @@
             // 
             // btnlistar
             // 
-            this.btnlistar.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btnlistar.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.btnlistar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnlistar.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
             this.btnlistar.FlatAppearance.BorderSize = 2;
@@ -60,7 +60,7 @@
             // 
             // btncerrar
             // 
-            this.btncerrar.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btncerrar.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.btncerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btncerrar.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
             this.btncerrar.FlatAppearance.BorderSize = 2;
@@ -82,7 +82,7 @@
             // 
             // btnagregar
             // 
-            this.btnagregar.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btnagregar.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.btnagregar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnagregar.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
             this.btnagregar.FlatAppearance.BorderSize = 2;
@@ -104,7 +104,7 @@
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.BackColor = System.Drawing.Color.Gainsboro;
             this.label1.Location = new System.Drawing.Point(4, 4);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(448, 154);
@@ -113,7 +113,7 @@
             // 
             // btnbuscar
             // 
-            this.btnbuscar.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btnbuscar.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.btnbuscar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnbuscar.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
             this.btnbuscar.FlatAppearance.BorderSize = 2;
@@ -136,12 +136,12 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.White;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Teal;
+            this.label7.BackColor = System.Drawing.Color.Gainsboro;
+            this.label7.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Black;
             this.label7.Location = new System.Drawing.Point(18, 18);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(63, 15);
+            this.label7.Size = new System.Drawing.Size(55, 15);
             this.label7.TabIndex = 114;
             this.label7.Text = "SALIDAS";
             // 
@@ -149,7 +149,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Red;
+            this.BackColor = System.Drawing.Color.CadetBlue;
             this.ClientSize = new System.Drawing.Size(456, 163);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.btnbuscar);

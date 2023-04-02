@@ -185,8 +185,13 @@ namespace ProyectoVenta.Formularios
                 System.Diagnostics.Process.Start("https://ouo.io/VRgLgZ");
             }
 
-            mdAcercade form = new mdAcercade();
-            form.ShowDialog();
+            //mdAcercade form = new mdAcercade();
+            //form.ShowDialog();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

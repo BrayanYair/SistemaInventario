@@ -37,7 +37,7 @@
             // 
             // btnagregarproductos
             // 
-            this.btnagregarproductos.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btnagregarproductos.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.btnagregarproductos.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnagregarproductos.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
             this.btnagregarproductos.FlatAppearance.BorderSize = 2;
@@ -59,7 +59,7 @@
             // 
             // btnvolver
             // 
-            this.btnvolver.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btnvolver.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.btnvolver.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnvolver.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
             this.btnvolver.FlatAppearance.BorderSize = 2;
@@ -81,7 +81,7 @@
             // 
             // btncargar
             // 
-            this.btncargar.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btncargar.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.btncargar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btncargar.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
             this.btncargar.FlatAppearance.BorderSize = 2;
@@ -103,7 +103,7 @@
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.BackColor = System.Drawing.Color.Gainsboro;
             this.label1.Location = new System.Drawing.Point(4, 4);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(348, 152);
@@ -112,12 +112,12 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.White;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Teal;
+            this.label7.BackColor = System.Drawing.Color.Gainsboro;
+            this.label7.Font = new System.Drawing.Font("Candara", 9.75F, System.Drawing.FontStyle.Bold);
+            this.label7.ForeColor = System.Drawing.Color.Black;
             this.label7.Location = new System.Drawing.Point(20, 20);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(92, 15);
+            this.label7.Size = new System.Drawing.Size(78, 15);
             this.label7.TabIndex = 113;
             this.label7.Text = "PRODUCTOS";
             // 
@@ -125,7 +125,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Red;
+            this.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.ClientSize = new System.Drawing.Size(357, 161);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.btncargar);
